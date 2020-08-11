@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.column {
+  float: left;
+  width:50%;
+  height: 50%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.row::after{
+content: "";
+  clear: both;
+  display: block;}
+  header{
+    background-color:white;
+  
+    }
+    img{
+      height: 200px;
+      width: 200px;
+    }
+    .two{
+      display: inline-block;
+      padding-right:100px;
+    }
+    .three{
+      display: inline-block;
+      padding-right:100px;
+    }
+    .four{
+      display: inline-block;
+      padding-top: 100px;
+      padding-right:100px;
+    }
+    /* .five{
+      display: inline-block;
+     padding-left: 50px;
+    } */
+    
+    header nav ul{
+      max-width: 1200px;
+      margin: 0 auto;
+      overflow: auto;
+    
+    }
+    header nav li{
+      list-style: none;
+      float: left;
+    }
+    .topnav {
+      background-color: #333;
+      overflow: hidden;
+      align-content: center;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #F2F2F2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 24px;
+    }
+  
+    .topnav a:hover {
+      background-color: aqua;
+      color: black;
+    }
+  
+    .topnav a.active {
+      background-color:black;
+      color: white;
+    }
+    
+    
+    
+    header nav ul li a{
+      color: #1a4526;
+      padding: 20px;
+      float:left;
+      font-size:20px;
+      text-decoration: none;
+    
+    
+    }
+    header nav ul li a:hover{
+    color: #b6bbc2;
+    }
+    header nav ul li a:active {
+      color: yellow;
+    }
+    header nav ul{
+      padding:0;
+      margin:0;
+    }
+    
+    body{
+      background-color:#0BBE3C;
+      color: #222;
+      font-family: Arial, Helvetica,sans-serif;
+    }
+    /*start header*/
+    header{
+    background-color: #949191;
+    }
+    header nav ul{
+      max-width: 1200px;
+      margin: 0 auto;
+      overflow: auto;
+    }
+    header nav li{
+      list-style: none;
+      float: left;
+    }
+    header nav ul li a{
+      color: #ccc;
+      padding: 20px;
+      float:left;
+      font-size:20px;
+      text-decoration: none;
+    }
+    footer{
+      font-size: 12px;
+      text-align: center;
+      padding: 50px 0;
+      color: #ccc;
+      background-color: 0,0,0,0.5;
+    }
+    header nav ul li a:hover{
+    color:#b6bbc2;
+    }
+    header nav ul li a:active {
+      color: yellow;
+    }
+    header nav ul{
+      padding:0;
+      margin:0;
+    }
+    .container{
+      background-color: #fff;
+      max-width:1200px;
+      margin: 0 auto;
+      min-height: 200px;
+      padding: 40px;
+      margin: 0 auto;
+    }
+    .container h1{
+      padding: 0;
+      margin: 0;
+    }
+    
+    
