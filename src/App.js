@@ -35,7 +35,9 @@ class App extends React.Component {
   <a href="#news">Products</a>
   <a href="#contact">View Cart</a>
   <a href="#about">Contact us</a>
+  <input type="text" placeholder="Search.."></input>
 </div>
+
 <h1><u>Green Kiosk</u></h1>
         <section className="one">
           
@@ -47,7 +49,7 @@ class App extends React.Component {
               <p> Qty {this.state.quantity[0]} </p>
               <p>Ksh {this.state.price[0]} </p>
               <button className="add-to-cart-btn" onClick="saveItem()">
-                ADD
+                Add To Cart
               </button>
             </div>
         
@@ -60,7 +62,7 @@ class App extends React.Component {
               <p>Qty {this.state.quantity[1]} </p>
               <p>Ksh {this.state.price[1]} </p>
               <button className="add-to-cart-btn" onClick="saveItem()">
-                ADD
+                Add To Cart
               </button>
             </div>
         
@@ -75,7 +77,7 @@ class App extends React.Component {
               <p>Ksh {this.state.price[2]} </p>
 
               <button className="add-to-cart-btn" onClick="saveItem()">
-                ADD
+                Add To Cart
               </button>
             </div>
           
@@ -89,7 +91,7 @@ class App extends React.Component {
               <p>Qty {this.state.quantity[1]} </p>
               <p>Ksh {this.state.price[0]} </p>
               <button className="add-to-cart-btn" onClick="saveItem()">
-                ADD
+                Add To Cart
               </button>
             </div>
 
@@ -102,7 +104,7 @@ class App extends React.Component {
               <p> Qty {this.state.quantity[1]} </p>
               <p>Ksh {this.state.price[0]} </p>
               <button className="add-to-cart-btn" onClick="saveItem()">
-                ADD
+                Add To Cart
               </button>
             </div>
 
@@ -115,7 +117,7 @@ class App extends React.Component {
               <p> Qty {this.state.quantity[1]} </p>
               <p>Ksh {this.state.price[0]} </p>
               <button className="add-to-cart-btn" onClick="saveItem()">
-                ADD
+                Add To Cart
               </button>
             </div>
             <div className="four">
@@ -128,7 +130,7 @@ class App extends React.Component {
               <p>Ksh {this.state.price[3]} </p>
 
               <button className="add-to-cart-btn" onClick="saveItem()">
-                ADD
+                Add To Cart
               </button>
             </div>
             <div className="four">
@@ -142,7 +144,7 @@ class App extends React.Component {
 
 
               <button className="add-to-cart-btn" onClick="saveItem()">
-                ADD
+                Add To Cart
               </button>
             </div>
           
