@@ -1,14 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { render } from 'react-dom';
+import React, { Component, Fragment } from 'react';
+import TopBar from './TopBar';
+import ProductList from './ProductList';
+import Hello  from './Hello';
+import './style.css';
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: 'React'
+    };
+  }
 
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-);
-    
+  render() {
+    return (
+      <Fragment>
+       <TopBar/>
+        <div className="container">
+          <ProductList />
+        </div>
+      </Fragment>
+    );
+  }
+}
+
+render(<App />, document.getElementById('root'));
+ 
        
 
 
@@ -18,6 +37,3 @@ ReactDOM.render(
 
 
    
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
