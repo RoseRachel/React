@@ -134,7 +134,7 @@
     padding: 16px 32px;
     margin-bottom: 8px;
     border-radius: 2px;
-    background-color: coral;
+    background-color: gold;
   }
   img{
       width:200px;
@@ -153,4 +153,8 @@
       text-align: center;
 
   }
-  
+  .form{
+    background: #ffffff;
+    min-height: 200px;
+    padding: 25px;
+}
